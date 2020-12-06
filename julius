@@ -1,0 +1,30 @@
+独自辞書の作成（ディクテーションキット）
+
+julius_ros/data
+
+greeting.yomi
+おっけー おっけー
+すとっぷ すとっぷ
+つぎ つぎ
+
+yomi2voca.pl を使用
+
+greeting.phone
+おはよう    o h a y o u
+ございます g o z a i m a s u
+こんにちは k o N n i ch i w a
+こんばんは k o N b a N w a
+
+greeting.grammar
+S : NS_B GREET NS_E
+GREET : OHAYOU
+GREET : OHAYOU GOZAIMASU
+GREET : KONNICHIWA
+GREET : KONBANWA
+
+https://www.pc-koubou.jp/magazine/19743
+
+https://qiita.com/mininobu/items/322a49856e6665bc8a30
+
+3.2 単語認識をやってみる
+http://sap.ist.i.kyoto-u.ac.jp/members/kawahara/paper/RI-HIS09.pdf
